@@ -1,6 +1,6 @@
-# port-bt-gitlab-trigger
+# Port Typescript API GitLab Trigger
 
-This project includes a basic API that can receive a request from Port's Agent, extract the inputs and then make a request to the specified gitlab pipeline to trigger it with the provided inputs.
+This project includes a basic API that can receive a request from Port's Agent, extract the inputs and then make a request to the specified GitLab pipeline to trigger it with the provided inputs.
 
 # Setup
 
