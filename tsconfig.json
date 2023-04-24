@@ -1,8 +1,11 @@
 {
 	"extends": "@tsconfig/node16/tsconfig.json",
 	"compilerOptions": {
-		"composite": true,
-		"resolveJsonModule": true,
-		"moduleResolution": "node"
-	}
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"rootDir": "src",
+		"outDir": "dist"
+	},
+	"include": ["src"],
+	"exclude": ["./dist", "node_modules"]
 }
